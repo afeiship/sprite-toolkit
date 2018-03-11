@@ -13,13 +13,13 @@ Spritesmith.run({
     './assets/icons/icon_qq.png'
   ],
   // algorithm: 'top-down',
-  padding: 5
+  padding: 0
 }, function handleResult(err, result) {
   if (err) {
     throw err;
   }
   // Output the image
-  fs.writeFileSync(__dirname + '/dist/sprite.png', result.image);
+  fs.writeFileSync(__dirname + '/docs/sprite.png', result.image);
 
   var fileEjs = fs.readFileSync(__dirname + '/assets/template/sprite.ejs');
   console.log(fileEjs.toString());
@@ -57,7 +57,7 @@ Spritesmith.run({
     mySpriteData
   );
 
-  fs.writeFileSync(__dirname + '/dist/sprite.css', pd.css(rs));
+  fs.writeFileSync(__dirname + '/docs/sprite.css', pd.css(rs));
 
   console.log('render!', rs);
 });

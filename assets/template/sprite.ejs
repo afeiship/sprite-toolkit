@@ -1,11 +1,11 @@
   <% items.forEach(function(item){ %>
     <% var clsName = prefix ?  `${prefix}-${item.name}` : item.name %>
-    <% var posX = `-${item.width/2}px` %>
-    <% var posY = `-${item.height/2}px` %>
+    <% var posX = `-${item.x/2}px` %>
+    <% var posY = `-${item.y/2}px` %>
     .<%= clsName %>{
-      width: <%= item.width %>px;
-      height: <%= item.height %>px;
-      background: url(~sprite.png) no-repeat <%= posX %> <%= posY %>;
-      background-size: <%= item.width/2 %>px <%= item.height/2 %>px;
+      width: <%= item.width/2 %>px;
+      height: <%= item.height/2 %>px;
+      background: url(sprite.png) no-repeat <%= posX %> <%= posY %>;
+      background-size: <%= item.width %>px auto;
     }
   <% }) %>

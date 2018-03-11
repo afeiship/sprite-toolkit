@@ -1,0 +1,13 @@
+ .ico-github{
+   width: 27px;
+   height: 27px;
+   background: url(sprite.png) no-repeat -0px -0px;
+   background-size: 54px auto;
+}
+ .ico-qq{
+   width: 27px;
+   height: 27px;
+   background: url(sprite.png) no-repeat -27px -0px;
+   background-size: 54px auto;
+}
+ 
