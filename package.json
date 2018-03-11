@@ -1,0 +1,19 @@
+{
+  "name": "sprite-toolkit",
+  "version": "0.0.0",
+  "description": "My sprite toolkit based on spritesmith.",
+  "homepage": "https://github.com/afeiship/sprite-toolkit",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {},
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "pretty-data": "^0.40.0",
+    "spritesmith": "^3.3.0"
+  }
+}
