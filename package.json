@@ -7,7 +7,9 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {},
